@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="bootstrap.css">
+
+  <title>Template1</title>
+  <style>
+    .w {
+      width: 200px;
+    }
+
+    .s {
+      width: 200px;
+
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <!-- navbar -->
+  <nav class="navbar  navbar-dark navbar-expand-sm sticky-top " style="background-color: black;">
+    <a class="btn btn-outline-light  border-0" href="#section1">HOME</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav mr-auto">
+
+
+        <ul class="navbar-nav">
+
+          <li class="nav-item active">
+            <a class="btn btn-outline-light  border-0" href="#section2">BAND</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-light  border-0" href="#section3">TOUR</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-light  border-0" href="#section4">CONCAT</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="btn btn-outline-light  border-0 dropdown-toggle " href="#" id="navbardrop" data-toggle="dropdown">
+              MORE
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#section41">Merchandise</a>
+              <a class="dropdown-item" href="#section42">Extras</a>
+              <a class="dropdown-item" href="#section42">Media</a>
+            </div>
+          </li>
+        </ul>
+    </div>
+  </nav>
+
+  <div id="section1">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="image/la.jpg" class="w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Los Angeles</h5>
+            <p>We had the best time playing at Venice Beach!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="image/chicago.jpg" class="w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Chicago</h5>
+            <p>Thank you, Chicago - A night we won't forget</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="image/ny.jpg" class="w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>New York</h5>
+            <p>The atmosphere in New York is lorem ipsum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <!--sayfa 2-->
+  <div id="section2" class="container text-center mb-5 mt-5  " style="height:500px; margin-top: 35px; width:100%; ">
+    <h2>THE BAND</h2>
+    <h6 class="lead font-italic">We love music</h6>
+    <p class="text-justify w-75 mx-auto mt-5">We have created a fictional band website. Lorem ipsum dolor sit amet,
+      consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+      irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+
+    <div class="text-lg-center  image-center card-columns d-inline-block w-auto ">
+      <p>Name</p><img src="image/cocuk.jpg" class="rounded w">
+      <p>Name</p> <img src="image/cocuk.jpg" class="rounded w">
+      <p>Name</p> <img src="image/cocuk.jpg" class="rounded w">
+
+
+    </div>
+  </div>
+
+
+
+  <!--sayfa 3-->
+
+  <div id="section3" class="  mx-auto text-center "
+    style="background-color: black; margin-top: 35px; padding-bottom:my-4 ;">
+
+    <h2 class="pt-5 " style="color: white;">TOUR DATES</h2>
+
+    <small class="pt-5  text-muted font-italic" style="color: white; ">Remember to book your tickets!</small>
+
+
+    <div class="card my-3 text-center w-75 mx-auto  ">
+      <div class="card-body text-left">
+        <span class="card-text"> September </span> <span class="bg-danger ml-3" style="color:white">Sold out</span>
+        <hr>
+        <span> October </span> <span class="bg-danger ml-3" style="color:white">Sold out</span>
+        <hr>
+        <span> Novamber </span> <span class="badge badge-pill  text light pl-2 pr-2 float-right"
+          style="background-color: black; color: white;">3</span>
+      </div>
+    </div>
+    <div class="w-75 mx-auto ">
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+          <div class="card">
+            <img src="image/newyork.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">New York</h5>
+              <p style="opacity: .7;">Fri 27 Nov 2016</p>
+              <p class="card-text">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+              <a href="#" class="btn btn-primary float-left" data-toggle="modal" type="button" data-target="#myModal"
+                style="background-color: black;">Buy Tickets</a>
+
+
+
+
+              <div class="modal " id="myModal">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header" style="background-color:#009688 ; color: white;">
+                      <div class="">
+                        <h1 class="modal-title "><img src="/img/suitcase.png" alt=""> Tickets</h1>
+                        <img src="image/canta.svg" class="ml-4" alt="">
+                      </div>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group text-left">
+                          <label class="text-left"><img src="image/canta.svg" alt=""> Tickets, $15 per person</label>
+                          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="How many?">
+                        </div>
+                        <div class="form-group text-left">
+                          <label for="formGroupExampleInput2"><img src="image/person.svg" alt=""> Send To</label>
+                          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter email">
+                        </div>
+                      </form>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-info w-100 py-3" style="background-color: turquoise;"> pay
+                        ₺</button>
+                      <button type="button" class="btn btn-secondary bg-danger float-left  mt-2 mb-2 ml-2 px-4 py-2"
+                        data-dismiss="modal">Close</button>
+                      <p class="float-right mt-4">Need<a type="button" class="btn btn-link mt-0">help?</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="image/paris.jpg" .jpg class="card-img-top" alt="...">
+
+            <div class="card-body">
+              <h5 class="card-title">Paris</h5>
+              <p style="opacity: .7;">Sat 28 Nov 2016</p>
+              <p class="card-text">Praesent tincidunt sed tellus ut rutrum sed vitae justo..</p>
+              <a href="#" class="btn btn-primary float-left" data-toggle="modal" type="button" data-target="#myModal1"
+                style="background-color: black;">Buy Tickets</a>
+
+
+              <div class="modal" id="myModal1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content ">
+                    <div class="modal-header" style="background-color:#009688 ; color: white;">
+
+                      <h1 class="modal-title"><img src="/img/suitcase.png" alt=""> Tickets</h1>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          <label for="formGroupExampleInput"><img src="/img/cart-fill.svg" alt=""> Tickets, $15 per
+                            person</label>
+                          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="How many?">
+                        </div>
+                        <div class="form-group">
+                          <label for="formGroupExampleInput2"><img src="/img/person-fill.svg" alt=""> Send To</label>
+                          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter email">
+                        </div>
+                      </form>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-info w-100 py-3" style="background-color: turquoise;">
+                        pay</button>
+                      <button type="button" class="btn btn-secondary bg-danger float-left  mt-2 mb-2 ml-2 px-4 py-2"
+                        data-dismiss="modal">Close</button>
+                      <p class="float-right mt-4">Need<a type="button" class="btn btn-link mt-0">help?</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="image/sanfran.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">San Francisco</h5>
+              <p style="opacity: .7;">Sun 29 Nov 2016</p>
+              <p class="card-text">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+              <a href="#" class="btn btn-primary float-left" data-toggle="modal" type="button" data-target="#myModal3"
+                style="background-color: black;">Buy Tickets</a>
+
+              <div class="modal" id="myModal3">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content ">
+                    <div class="modal-header" style="background-color:#009688 ; color: white;">
+
+                      <h1 class="modal-title "><img src="/img/suitcase.png" alt=""> Tickets</h1>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          <label for="formGroupExampleInput"><img src="/img/cart-fill.svg" alt=""> Tickets, $15 per
+                            person</label>
+                          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="How many?">
+                        </div>
+                        <div class="form-group">
+                          <label for="formGroupExampleInput2"><img src="/img/person-fill.svg" alt=""> Send To</label>
+                          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter email">
+                        </div>
+                      </form>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-info w-100 py-3" style="background-color: turquoise;">
+                        pay</button>
+                      <button type="button" class="btn btn-secondary bg-danger float-left  mt-2 mb-2 ml-2 px-4 py-2"
+                        data-dismiss="modal">Close</button>
+                      <p class="float-right mt-4">Need<a type="button" class="btn btn-link mt-0">help?</a></p>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div id="section4 " class=" bg-white">
+    <div class="container text-center" style="height:500px; margin-top: 35px; background-color: white;">
+      <section class="container mb-4 ">
+
+        <!--Section heading-->
+        <h2 class="text-center pt-5">CONTACT</h2>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5">Fan? Drop a note!</p>
+
+        <div class="row ">
+          <!--Grid column-->
+          <div class="col-md-3 text-center ">
+            <ul class="list-unstyled mb-0">
+              <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                <img src="image/konum.svg" alt="">
+                <span> Chicago, US</span>
+              </li>
+
+              <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                <img src="image/telephone.svg" alt="">
+                <span>Phone: +00 151515</span>
+              </li>
+
+              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                <img src="image/mail.svg" alt="">
+                <span> Email: mail@mail.com</span>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+          <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+              <!--Grid row-->
+              <div class="row">
+
+                <!--Grid column-->
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input type="text" id="name" class="form-control" placeholder="Name" required><br>
+
+                  </div>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input type="text" id="email" name="email" class="form-control" placeholder="Email" required><br>
+
+                  </div>
+                </div>
+                <!--Grid column-->
+
+              </div>
+         
+
+              <!--Grid row-->
+              <div class="row">
+
+                <!--Grid column-->
+                <div class="col-md-12">
+
+                  <div class="md-form">
+                    <textarea name="message" id="message" rows="1" class="form-control"
+                      placeholder="Message"></textarea>
+
+                  </div>
+                  <div class="text-center text-md-left ">
+
+                    <button type="submit" class="btn  float-right mt-2"
+                      style="background-color: black; color: white  ;">Send </button>
+                  </div>
+
+                </div>
+              </div>
+              <!--Grid row-->
+            </form>
+
+
+            <div class="status"></div>
+          </div>
+          <!--Grid column-->
+          <!--Grid column-->
+        </div>
+
+      </section>
+    </div>
+
+  </div>
+  <div id="id=" section4></div>
+  <div class="mx-auto">
+    <img src="image/map.jpg" style="width: 100% ;" alt="">
+  </div>
+
+
+
+  <div id="section5">
+    <footer class=" py-5 bg-white text-white text-center ">
+      <div class="container ">
+        <img src="image/facebook.svg" alt="">
+        <img src="image/instagram.svg" alt="">
+        <img src="image/at.svg" alt="">
+        <img src="image/twitter.svg" alt="">
+        <img src="image/linkedin.svg" alt="">
+        <img src="image/wc.svg" alt=""><br>
+        <span class="text-muted">Powered by Emre Karaman..</span>
+
+
+
+      </div>
+    </footer>
+  </div>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
